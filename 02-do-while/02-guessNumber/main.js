@@ -47,7 +47,7 @@ let isEmpty ;
 let isNan ;
 let outOfRange;
 do {
-    ansNumber = prompt('Enter your magic number') || ''; // null || ''
+    // ansNumber = prompt('Enter your magic number') || ''; // null || ''
     
     isEmpty = ansNumber.trim() === '';
     isNan = isNaN(ansNumber); 
@@ -56,18 +56,19 @@ do {
         alert('Invalid input');
     } else if (outOfRange ) {
         alert('invalid Range,try1-99');
-    }
+    } 
     
     
 } while (isEmpty || isNan )
 
-//Program 2 : Guess
+// Program 2 : Guess
 // ทายซ้ำ 
 // +hint outofrange
 // +hint Invalid Range
 // +hint to High, too Low
 // alert Correct
 // + ทายได้ไม่เกิน 5 ครั้ง
+
 let guessNumber;
 
 do {

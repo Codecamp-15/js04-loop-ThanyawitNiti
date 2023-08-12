@@ -1,29 +1,14 @@
-//บรรทัด แรก มี 1 สตาร์
 
-// a ='*'
-// for ( i = * ;)
-// print 4 แถวยังไง
-//let อยู่ข้างนอก ตัวแปรถูก อัปเดตเรื่อยๆ
-//let str='';
-// for (let i = 1 ; i <= 5 ; i++) {
-//     // console.log('*')
-//     let str = '';
-//     for (let j = 1 ; j <= 5 ; j++){
-//         str = str + '*';
-//     }
-//     console.log(str);
-// }
-// star pattern
-// forloop
-// pattern recog
-// for (let i = 1 ; i <= 4 ; i++) {
-//     // console.log('*')
-//     let str = '';
-//     for (let j = 1 ; j <= i ; j++){
-//         str = str + '*';
-//     }
-//     console.log(str);
-// }
+// ให้เขียนโค้ดแสดงรูปดอกจันตามรูปแบบด้านล่าง โดยแสดงผลออกมาใน console
+
+// ```
+// *
+// *	*
+// *	*	*
+// *	*	*	*
+// ```
+
+// หมายเหตุ : คำสั่งขึ้นบรรทัดใหม่ใน console ให้ใช้ \n
 
 let str =''
 for ( let i =1; i <=5 ; i++) {
